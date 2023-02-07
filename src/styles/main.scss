@@ -1,0 +1,13 @@
+button {
+  background-color: purple;
+  color: white;
+  padding: 1.2rem;
+}
+
+img {
+  border: 1px solid black;
+  border-radius: 2rem;
+  &:hover {
+    opacity: 0.2;
+  }
+}
