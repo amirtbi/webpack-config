@@ -1,13 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+header {
+  padding: 0;
+  margin: 0;
+  background-color: indigo;
+  color: white;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style-type: none;
+  padding: 0.75rem;
+  color: white;
+}
+
 button {
   background-color: purple;
   color: white;
   padding: 1.2rem;
-}
-
-img {
-  border: 1px solid black;
-  border-radius: 2rem;
-  &:hover {
-    opacity: 0.2;
-  }
 }
