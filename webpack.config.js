@@ -117,20 +117,7 @@ const config = {
       },
     ],
   },
-  devServer: {
-    hot: true,
-    port: 5004,
-    liveReload: true,
-    watchFiles: ["build/**/*"],
-    devMiddleware: {
-      publicPath: "/build/",
-    },
-    static: {
-      directory: path.resolve(__dirname, "build"),
-      watch: true,
-    },
-    open: ["./build/index.htm"],
-  },
+  devServer: { historyApiFallback: true },
   // https://webpack.js.org/configuration/optimization/
   optimization: {
     minimize: true,
